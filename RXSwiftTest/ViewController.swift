@@ -200,7 +200,7 @@ class ViewController: UIViewController {
         single8.subscribe(onNext: { (reslute) in
             print(reslute)
         }, onError: nil, onCompleted: {
-            print("onCompleted7")
+            print("onCompleted8")
         }, onDisposed: nil).disposed(by: self.disposeBag)
     }
     
